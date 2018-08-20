@@ -1,2 +1,1 @@
-# beermonster
-AI Recommendation App for Beer
+# udemy-nuk
