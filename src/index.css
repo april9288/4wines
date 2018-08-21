@@ -3,3 +3,37 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.firsttitle {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	text-align: left;
+	color: #C69144;
+}
+
+.secondtitle {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	word-spacing: 5px;
+}
+
+.bg-primary {
+	background-color: #efb549!important;
+}
+
+.sidebar-collapse .navbar-collapse:before {
+    background: linear-gradient(#efb549,#000 80%);
+}
+
+.btn-primary {
+	color: #efb549!important;
+    border-color: #efb549!important;
+}
+
+.btn-primary:hover {
+	color: #c69144!important;
+    border-color: #c69144!important;
+}
+
+.page-header .content-center {
+    max-width: 650px!important;
+    }
