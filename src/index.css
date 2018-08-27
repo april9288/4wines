@@ -111,11 +111,11 @@ body {
   }
 } 
 
-@media only screen and (max-width: 400px) {
-  #myVideo {
-    left: -147%;
-  }
-} 
+
+@media only screen and (max-width: 550px) {#myVideo {left: -60%;}} 
+@media only screen and (max-width: 500px) {#myVideo {left: -70%;}} 
+@media only screen and (max-width: 450px) {#myVideo {left: -100%;}} 
+@media only screen and (max-width: 400px) {#myVideo {left: -147%;}} 
 
 
 
