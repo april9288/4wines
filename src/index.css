@@ -19,7 +19,6 @@ body {
   object-fit: cover;
   height: 100%;
   width: 100%;
-
 }
 
 /*old*/
@@ -34,6 +33,8 @@ body {
     z-index: -100;
 }
 */
+
+
 /*navi bar font adjustment*/
 .navbar-translate {
     font-weight: 900;
@@ -101,7 +102,7 @@ body {
       width: 90%;
   }
   #discover {
-    font-size: 4.7rem;
+    font-size: 4.0rem;
   }
   .btn-primary {
     font-size: 1em;
@@ -122,6 +123,9 @@ body {
 @media only screen and (max-width: 600px) {
   #discover {
     font-size: 2.5rem;
+  }
+  .index-page .page-header {
+      height: 100vh;
   }
 } 
 
