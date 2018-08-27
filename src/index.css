@@ -2,38 +2,132 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.firsttitle {
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	text-align: left;
-	color: #C69144;
+#myVideo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
 }
 
-.secondtitle {
-	font-family: 'Open Sans', sans-serif;
-	text-align: left;
-	word-spacing: 5px;
+/*navi bar font adjustment*/
+.navbar-translate {
+    font-weight: 900;
+    font-size: 2em;
 }
 
+/*Discover your next wine*/
+#discover {
+    font-size: 5.5rem;
+    font-weight: 900;
+}
+
+/*orange to gray*/
 .bg-primary {
-	background-color: #efb549!important;
+    background-color: #2c2c2c!important;
 }
 
-.sidebar-collapse .navbar-collapse:before {
-    background: linear-gradient(#efb549,#000 80%);
-}
-
+/*Explore now*/
 .btn-primary {
-	color: #efb549!important;
-    border-color: #efb549!important;
+    background-color: #ea1839!important;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 7%;
 }
-
 .btn-primary:hover {
-	color: #c69144!important;
-    border-color: #c69144!important;
+    background-color: #DE8B8B!important;
+}
+.btn-primary:focus {
+    background-color: #DE8B8B!important;
 }
 
-.page-header .content-center {
-    max-width: 650px!important;
-    }
+.index-page .page-header .container>.content-center {
+      top: 50%;
+}
+
+.navbar p {
+    font-size: 1.2rem;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) {
+    font-size: 3.7142em;
+}
+
+/*first card message*/
+.card {
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 991px and down) */
+@media only screen and (max-width: 991px) {
+  .index-page .page-header .container>.content-center {
+      top: 45%;
+  }
+  .page-header .content-center {
+      width: 90%;
+  }
+  #discover {
+    font-size: 4.7rem;
+  }
+  .btn-primary {
+    font-size: 1em;
+  }
+
+  .sidebar-collapse .navbar-collapse:before {
+    background: #f96332;
+    background: linear-gradient(#ea1839,#000 80%);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (max-width: 768px) {}*/
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #discover {
+    font-size: 2.5rem;
+  }
+  #myVideo {
+    left: -50%;
+  }
+} 
+
+@media only screen and (max-width: 400px) {
+  #myVideo {
+    left: -147%;
+  }
+} 
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {}*/
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...} */
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {...} */
+
