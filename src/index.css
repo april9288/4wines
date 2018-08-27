@@ -6,7 +6,24 @@ body {
   background-size: cover;
 }
 
+.video_container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+}
+
 #myVideo {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+}
+
+/*old*/
+/*#myVideo {
     position: fixed;
     right: 0;
     top: 0;
@@ -16,7 +33,7 @@ body {
     height: auto;
     z-index: -100;
 }
-
+*/
 /*navi bar font adjustment*/
 .navbar-translate {
     font-weight: 900;
@@ -106,16 +123,13 @@ body {
   #discover {
     font-size: 2.5rem;
   }
-  #myVideo {
-    left: -50%;
-  }
 } 
 
-
+/*
 @media only screen and (max-width: 550px) {#myVideo {left: -60%;}} 
 @media only screen and (max-width: 500px) {#myVideo {left: -70%;}} 
 @media only screen and (max-width: 450px) {#myVideo {left: -100%;}} 
-@media only screen and (max-width: 400px) {#myVideo {left: -147%;}} 
+@media only screen and (max-width: 400px) {#myVideo {left: -147%;}} */
 
 
 
