@@ -2,166 +2,43 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-.bg-wine{
-  position:fixed;
-  height:100%;
-  width:102%;
-  object-fit: cover;
-  bottom: 0;
 
-}
-/*.video_container{
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 102%;
-  z-index: -100;
-  overflow: hidden;
+.first_page_container {
+	font-family: 'Chivo', sans-serif;
 }
 
-#myVideo {
-  position: fixed;
-  object-fit: cover;
-  height: 100%;
-  width: 102%;
-}
-*/
-/*fit video to the screen 100%*/
-.index-page .page-header {
-      height: 100vh;
-  }
-
-/*fixed video*/
-.brand {
-  position: fixed!important;
-  z-index: -10;
+/*"welcome to 4wines"*/
+.page-header .content-center {
+	top:100%;
 }
 
-/*fixed video*/
-.section-basic{
-  z-index: 1;
-}
-
-.main {
-  z-index: 1;
-}
-
-/*navi bar font adjustment*/
+/*navigation bar title = "4WINES" adj*/
 .navbar-translate {
     font-weight: 900;
     font-size: 2em;
 }
 
-/*Discover your next wine*/
-#discover {
-    font-size: 2.5rem;
-    font-weight: 600;
-}
-
-/*orange to gray*/
-.bg-primary {
-    background-color: #2c2c2c!important;
-}
-
-/*Explore now*/
-.btn-primary {
-    background-color: #ea1839!important;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.2em;
-    margin-top: 1%;
-}
-.btn-primary:hover {
-    background-color: #DE8B8B!important;
-}
-.btn-primary:focus {
-    background-color: #DE8B8B!important;
-}
-
-.index-page .page-header .container>.content-center {
-      top: 30%;
-}
-
-.navbar p {
-    font-size: 1.2rem;
-}
-
-.navbar .navbar-nav .nav-link:not(.btn) {
-    font-size: 3.7142em;
-}
-
-/*first card message*/
-.card {
-  font-size: 1.2rem;
-  width:60%;
-}
-
-
-
-
-
-
-
-
-
-
-/* Medium devices (landscape tablets, 991px and down) */
-@media only screen and (max-width: 991px) {
-  .index-page .page-header .container>.content-center {
-      top: 45%;
-  }
-  .page-header .content-center {
-      width: 90%;
-  }
-  #discover {
-    font-size: 2.0rem;
-  }
-  .btn-primary {
-    font-size: 1em;
-  }
-
-  .sidebar-collapse .navbar-collapse:before {
-    background: #f96332;
-    background: linear-gradient(#ea1839,#000 80%);
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-/*@media only screen and (max-width: 768px) {}*/
-
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  #discover {
-    font-size: 1.5rem;
-  }
+@media only screen and (max-width: 900px) {
+	h1 {
+		font-size: 2.5rem;
+	}
 } 
 
-/*
-@media only screen and (max-width: 550px) {#myVideo {left: -60%;}} 
+@media only screen and (max-width: 800px) {
+	h1 {
+		font-size: 2rem;
+	}
+} 
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+} 
+
+/*@media only screen and (max-width: 550px) {#myVideo {left: -60%;}} 
 @media only screen and (max-width: 500px) {#myVideo {left: -70%;}} 
 @media only screen and (max-width: 450px) {#myVideo {left: -100%;}} 
-@media only screen and (max-width: 400px) {#myVideo {left: -147%;}} */
-
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/*@media only screen and (min-width: 1200px) {}*/
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/*@media only screen and (min-width: 600px) {...} */
-
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-/*@media only screen and (min-width: 992px) {...} */
-
+@media only screen and (max-width: 400px) {#myVideo {left: -147%;}}*/
