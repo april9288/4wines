@@ -4,37 +4,54 @@ body {
   font-family: sans-serif;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.video_container{
+.bg-wine{
+  position:fixed;
+  height:100%;
+  width:102%;
+  object-fit: cover;
+  bottom: 0;
+
+}
+/*.video_container{
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
-  width: 100%;
+  width: 102%;
   z-index: -100;
   overflow: hidden;
 }
 
 #myVideo {
+  position: fixed;
   object-fit: cover;
   height: 100%;
-  width: 100%;
-}
-
-/*old*/
-/*#myVideo {
-    position: fixed;
-    right: 0;
-    top: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    width: auto; 
-    height: auto;
-    z-index: -100;
+  width: 102%;
 }
 */
+/*fit video to the screen 100%*/
+.index-page .page-header {
+      height: 100vh;
+  }
 
+/*fixed video*/
+.brand {
+  position: fixed!important;
+  z-index: -10;
+}
+
+/*fixed video*/
+.section-basic{
+  z-index: 1;
+}
+
+.main {
+  z-index: 1;
+}
 
 /*navi bar font adjustment*/
 .navbar-translate {
@@ -44,8 +61,8 @@ body {
 
 /*Discover your next wine*/
 #discover {
-    font-size: 5.5rem;
-    font-weight: 900;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 /*orange to gray*/
@@ -59,7 +76,7 @@ body {
     color: #fff;
     font-weight: 500;
     font-size: 1.2em;
-    margin-top: 7%;
+    margin-top: 1%;
 }
 .btn-primary:hover {
     background-color: #DE8B8B!important;
@@ -69,7 +86,7 @@ body {
 }
 
 .index-page .page-header .container>.content-center {
-      top: 50%;
+      top: 30%;
 }
 
 .navbar p {
@@ -83,6 +100,7 @@ body {
 /*first card message*/
 .card {
   font-size: 1.2rem;
+  width:60%;
 }
 
 
@@ -103,7 +121,7 @@ body {
       width: 90%;
   }
   #discover {
-    font-size: 4.0rem;
+    font-size: 2.0rem;
   }
   .btn-primary {
     font-size: 1em;
@@ -123,10 +141,7 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #discover {
-    font-size: 2.5rem;
-  }
-  .index-page .page-header {
-      height: 100vh;
+    font-size: 1.5rem;
   }
 } 
 

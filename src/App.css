@@ -1,3 +1,7 @@
 .App {
   text-align: center;
 }
+
+.navbar-brand img {
+	vertical-align: bottom;
+}
