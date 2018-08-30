@@ -6,8 +6,8 @@ const Navigation = () => {
 		<nav className="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
 	        <div className="container">
 	            <div className="navbar-translate">
-	                <a className="navbar-brand" rel="tooltip" title="Welcome to 4wines" data-placement="bottom" target="_blank">
-	                    4wines
+	                <a className="navbar-brand logo_navi" rel="tooltip" title="Welcome to 4wines" data-placement="bottom" target="_blank">
+	                    
 	                </a>
 	                <button className="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
 	                    <span className="navbar-toggler-bar bar1"></span>

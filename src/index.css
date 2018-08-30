@@ -4,14 +4,33 @@ body {
   font-family: sans-serif;
 }
 
+/*bg filter*/
+.clear-filter[filter-color=orange] {
+    background: rgba(0,168,255,0.5);
+    background: linear-gradient(270deg,rgba(0,168,255,0.5),rgba(185,0,255,0.5));
+}
 
+.logo{
+	font-family: 'Libre Baskerville', serif;
+	font-size:4rem;
+	letter-spacing:0.3rem;
+}
+
+.logo_navi{
+	font-family: 'Libre Baskerville', serif;
+	letter-spacing:0.1rem;
+}
+
+.logo_sub{
+	font-family: 'Montserrat', sans-serif;
+}
 .first_page_container {
 	font-family: 'Chivo', sans-serif;
 }
 
 /*"welcome to 4wines"*/
 .page-header .content-center {
-	top:100%;
+	top:45vh;
 }
 
 /*navigation bar title = "4WINES" adj*/
@@ -20,22 +39,38 @@ body {
     font-size: 2em;
 }
 
+/*"Explore now*/
+.btn-info{
+	background-color: rgba(204,91,59,.1);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid white;
+}
+.btn:hover {
+	background-color: rgba(60,24,50,.5);
+	border: 2px solid white;
+}
+.btn:focus {
+	background-color: rgba(60,24,50,.5);
+	border: 2px solid white;
+}
+.btn:active {
+	background-color: rgba(60,24,50,.9)!important;
+	border: 2px solid white!important;
+}
+
 @media only screen and (max-width: 900px) {
-	h1 {
-		font-size: 2.5rem;
+	.logo {
+		font-size: 3rem;
 	}
 } 
 
 @media only screen and (max-width: 800px) {
-	h1 {
-		font-size: 2rem;
-	}
+
 } 
 
 @media only screen and (max-width: 600px) {
-	h1 {
-		font-size: 1.5rem;
-	}
+
 } 
 
 /*@media only screen and (max-width: 550px) {#myVideo {left: -60%;}} 
