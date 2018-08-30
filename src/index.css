@@ -40,24 +40,34 @@ body {
 }
 
 /*"Explore now*/
-.btn-info{
+.try_demo{
 	background-color: rgba(204,91,59,.1);
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid white;
+    margin-top:4rem;
 }
-.btn:hover {
+.try_demo:hover {
 	background-color: rgba(60,24,50,.5);
 	border: 2px solid white;
 }
-.btn:focus {
+.try_demo:focus {
 	background-color: rgba(60,24,50,.5);
 	border: 2px solid white;
 }
-.btn:active {
+.try_demo:active {
 	background-color: rgba(60,24,50,.9)!important;
 	border: 2px solid white!important;
 }
+.explore_more{
+	color:white!important;
+	text-decoration: underline;
+}
+.explore_more:hover{
+	text-decoration: underline!important;
+}
+
+
 
 @media only screen and (max-width: 900px) {
 	.logo {
@@ -70,7 +80,9 @@ body {
 } 
 
 @media only screen and (max-width: 600px) {
-
+	.try_demo{
+	    margin-top:3rem;
+	}
 } 
 
 /*@media only screen and (max-width: 550px) {#myVideo {left: -60%;}} 
