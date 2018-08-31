@@ -13,7 +13,7 @@ class Quiz extends Component {
 constructor() {
     super();
     this.state = {
-      route : 'Quiz2'
+      route : 'Quiz1'
     }
   }
 

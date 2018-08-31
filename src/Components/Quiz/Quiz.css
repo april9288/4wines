@@ -189,7 +189,7 @@
 
 	.btn_custumized {
 	width: 12rem;
-	height: 2rem;
+	height: 4rem;
 	padding: 0;
 	margin-left:0.5rem;
 	margin-right:0.5rem;
@@ -217,8 +217,13 @@
     border: 2px solid white;
 	}
 
-
-
+	.quiz_button{
+	background-color: rgba(204,91,59,.1);
+	background-image: none;
+    color: #fff!important;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid white;
+	}
 
 
 
