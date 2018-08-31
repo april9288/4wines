@@ -8,10 +8,8 @@ const Quiz6 = ({route}) => {
             <div className="card text-center">
               <div className="card-header mt-2">
                       <div className="progress-container progress-info">
-                      <span className="progress-badge">Progress</span>
                       <div className="progress">
                         <div className="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{width: "100%"}}>
-                          <span className="progress-value">100%</span>
                         </div>
                       </div>
                     </div>

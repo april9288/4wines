@@ -1,12 +1,23 @@
+/*"welcome to 4wines"*/
+.page-header .content-center .card{
+	top:-30vh!important;
+}
+
+
 .card {
 	position: fixed;
 	display: block;
-	background-color: rgba(250, 250, 250, 0.9);
+	background-color: rgba(104,91,100,.5);
 }
-.card-title, .card-text, .card-header {
-	color:black;
+
+/*question text*/
+.card-text {
+	color:white;
 	word-spacing: 0.2rem;
+	text-align: left;
 }
+
+
 .progress-container .progress {
 	height: 10px;
 }
@@ -196,4 +207,21 @@
 	    justify-content: center;
 	    box-shadow: none;
 	}
+
+
+	.milk-bg,.dark-bg,.whitechoco-bg,.honey-bg,.coffee-bg,.lemon-bg,.salty-bg,.leader-bg,.adven-bg,.bohemian-bg,.fun-bg,.satisfaction-bg,.bottles-bg,.fee-bg, .database-bg{
+	background-color: rgba(204,91,59,.1);
+	background-image: none;
+    color: #fff!important;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid white;
+	}
+
+
+
+
+
+
+
+
 } 
