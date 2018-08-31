@@ -22,7 +22,7 @@ body {
 }
 
 
-/*"welcome to 4wines"*/
+/*Logo top*/
 .page-header .content-center {
 	top:45vh;
 }
@@ -64,7 +64,10 @@ body {
 } 
 
 @media only screen and (max-width: 800px) {
-
+	/*Logo top*/
+	.page-header .content-center {
+		top:55vh;
+	}
 } 
 
 @media only screen and (max-width: 600px) {

@@ -15,7 +15,7 @@ const Quiz3 = ({route}) => {
                     </div>
               </div>
               <div className="card-body">
-                <h3 className="card-text">What type of chocolate are you?</h3>
+                <h3 className="card-text">What type of chocolate do you like?</h3>
                 <button className="btn btn-info btn-lg milk-bg btn_custumized" onClick={()=>route("Quiz4")} style={{color: "white"}}>Milk chocolate</button>
                 <button className="btn btn-info btn-lg dark-bg btn_custumized" onClick={()=>route("Quiz4")} style={{color: "white"}}>Dark chocolate</button>
                 <button className="btn btn-info btn-lg whitechoco-bg btn_custumized" onClick={()=>route("Quiz4")} style={{color: "black"}}>White chocolate</button>

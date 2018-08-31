@@ -29,7 +29,7 @@ const Quiz5 = ({route}) => {
 
               </div>
               <div className="card-footer">
-                <button className="btn btn-info btn-lg" onClick={()=>route("Quiz6")}>Learn more >></button>
+                <button className="btn btn-info btn-lg quiz_button" onClick={()=>route("Quiz6")}>Sounds interesting</button>
               </div>
             </div>
 

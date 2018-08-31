@@ -16,14 +16,14 @@ const Quiz6 = ({route}) => {
               </div>
               <div className="card-body">
                 <h4 className="card-title">Last Step! </h4>
-                <h3 className="card-text">Please provide email below for more info and promotion code</h3>
+                <h4 className="card-text">Please provide email below for more info and promotion code</h4>
                 <form>
                   <div className="form-group">
-                    <label htmlFor="exampleInputEmail1" style={{color:"black", display:"flex"}}>Email address</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" style ={{"borderColor": "#17a2b8"}} />
-                    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email here!" style ={{"borderColor": "white"}} />
+                    <small id="emailHelp" className="form-text" style={{color:"white"}}>We'll never share your email with anyone else.</small>
                   </div>
-                  <button type="submit" className="btn btn-info" onClick={()=>route("Quiz7")}>Submit</button>
+                  <button type="submit" className="btn btn-info btn-lg quiz_button" onClick={()=>route("Quiz7")}>Submit</button>
                 </form>
               </div>
               <div className="card-footer text-muted mb-2">

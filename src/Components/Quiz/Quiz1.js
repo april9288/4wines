@@ -5,7 +5,7 @@ const Quiz1 = ({route}) => {
 	return (
 		<div>
 
-            <div className="card text-center">
+            <div className="card text-center animated zoomInRight">
               <div className="card-header mt-2">
                       <div className="progress-container progress-info">
                       <div className="progress">
@@ -19,7 +19,7 @@ const Quiz1 = ({route}) => {
                 <button className="btn btn-info btn-lg quiz_button btn_custumized" onClick={()=>route("Quiz2")}>Yes</button>
               </div>
               <div className="card-footer text-muted mb-2">
-                <button className="btn btn-info btn-lg quiz_button btn_custumized" onClick={()=>route("Quiz_HOW")}>Later</button>
+                <button className="btn btn-info btn-lg quiz_button btn_custumized" onClick={()=>route("main")}>Later</button>
               </div>
             </div>
 
