@@ -1,6 +1,6 @@
 /*"welcome to 4wines"*/
 .page-header .content-center .card{
-	top:-30vh!important;
+	top:-40vh!important;
 }
 
 
@@ -211,6 +211,19 @@
 @media only screen and (max-width: 850px) {
 	.try_demo{
 		margin-top: 0;
+	}
+	.btn_custumized {
+	height: 12vh;
+	}
+	.milk-bg,.dark-bg,.whitechoco-bg,.honey-bg,.coffee-bg,.lemon-bg,.salty-bg,.leader-bg,.adven-bg,.bohemian-bg,.fun-bg,.satisfaction-bg,.bottles-bg,.fee-bg, .database-bg{
+	background-color: rgba(204,91,59,.1);
+	background-image: none;
+    color: #fff!important;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid white;
+	}
+	.card-title{
+		margin-top:0;
 	}
 } 
 

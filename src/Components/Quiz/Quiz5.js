@@ -20,10 +20,8 @@ const Quiz5 = ({route}) => {
 
 
                       <ul className="list-group list-group-flush">
-                        <li className="list-group-item">Only $19.99 / month for 4 bottles of wine delivered to your door   <i className="now-ui-icons shopping_delivery-fast" style={{fontSize : "1.3rem", color: "#007bff"}}></i></li>
-                        <li className="list-group-item">No shipping fee & No sign-up fee & No hidden fee   <i className="now-ui-icons shopping_credit-card" style={{fontSize : "1.3rem", color: "#007bff"}}></i></li>
-                        <li className="list-group-item">Strong customizing engine built by passionate data scientists   <i className="now-ui-icons tech_laptop" style={{fontSize : "1.3rem", color: "#007bff"}}></i></li>
-                        <li className="list-group-item">Designed for beginners & Satisfaction Guaranteed   <i className="now-ui-icons emoticons_satisfied" style={{fontSize : "1.3rem", color: "#007bff"}}></i></li>
+                        <li className="list-group-item">Only $19.99 / month for 4 bottles of wine delivered to your door</li>
+                        <li className="list-group-item">No shipping fee & No sign-up fee & No hidden fee</li>
                       </ul>
 
 
