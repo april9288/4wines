@@ -61,18 +61,23 @@ body {
 	.logo {
 		font-size: 3.5rem;
 	}
-} 
-
-@media only screen and (max-width: 800px) {
 	/*Logo top*/
 	.page-header .content-center {
 		top:55vh;
 	}
 } 
 
+@media only screen and (max-width: 800px) {
+
+} 
+
 @media only screen and (max-width: 600px) {
 	.try_demo{
 	    margin-top:3rem;
+	}
+	/*Logo top*/
+	.page-header .content-center {
+		top:45vh;
 	}
 } 
 
