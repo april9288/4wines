@@ -1,12 +1,23 @@
-.App {
-  text-align: center;
-}
-
 body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
+.App {
+  text-align: center;
+}
+
+.row_membership_section{
+	margin: 25vh 0;
+}
+
+
+.bg_mine{
+    background-attachment: fixed;
+}
+
+
 .section_mine{
 	padding-bottom: 0;
 }
@@ -73,6 +84,18 @@ body {
 	padding-top: 0;
 }
 
+.card_title_membership{
+	font-family:'Lora', serif;
+	font-size:2rem;
+	letter-spacing:0.2rem;
+	margin-top:5vh;
+	margin-bottom: 10vh;
+    background: rgb(0,168,255);
+    background: linear-gradient(to right,rgb(255,85,85),rgb(105,0,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .card_title_customizing1{
 	font-family:'Lora', serif;
 	font-size:2rem;
@@ -83,18 +106,7 @@ body {
 .footer_title{
 	font-family:'Lora', serif;
 }
-.footer_icons{
-    background-color: rgb(44,44,44);
-    padding:0!important;
-}
-.footer_icons:hover{
-    background-color: rgb(44,44,44);
-    padding:0!important;
-}
-.footer_icons:focus{
-    background-color: rgb(44,44,44);
-    padding:0!important;
-}
+
 
 .row_footer{
 	margin-bottom: 0!important;
@@ -120,12 +132,7 @@ body {
 	letter-spacing:0.3rem;
 }
 
-/*How It Works*/
-.howitworks{
-	font-family:'Lora', serif;
-	font-size:3rem;
-	letter-spacing:0.3rem;
-}
+
 
 /*A great wine club for beginners*/
 .logo_sub{
@@ -179,29 +186,9 @@ body {
 	background-color: rgba(60,24,50,.9)!important;
 	border: 2px solid white!important;
 }
-.explore_more{
-	color:white!important;
-}
 
-.explore_down_icon{
-	display: block;
-}
 
-.down_arrow_icon{
-	color:white!important;
-	top:50vh;
-	position:absolute!important;
-}
 
-.howitworks_container{
-	display: flex!important;
-	justify-content: center!important;
-
-}
-.howitworks_card{
-	margin: 7vh!important;
-	height: 40vh!important;
-}
 
 @media only screen and (max-width: 900px) {
 	.logo {
@@ -214,14 +201,11 @@ body {
 } 
 
 @media only screen and (max-width: 800px) {
-	.down_arrow_icon{
-		top:40vh;
-	}
-	.card_membership{
-	height:50vh!important;
-	}	
 	.row_customizing1{
 		margin: 25vh 0;
+	}
+	.card_title_membership{
+		margin-bottom: 5vh;
 	}
 
 } 
@@ -235,8 +219,3 @@ body {
 		top:45vh;
 	}
 } 
-
-/*@media only screen and (max-width: 550px) {#myVideo {left: -60%;}} 
-@media only screen and (max-width: 500px) {#myVideo {left: -70%;}} 
-@media only screen and (max-width: 450px) {#myVideo {left: -100%;}} 
-@media only screen and (max-width: 400px) {#myVideo {left: -147%;}}*/
