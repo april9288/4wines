@@ -16,7 +16,7 @@ const Quiz5 = ({route}) => {
               </div>
               <div className="card-body">
                 <h3 className="card-text card_quiz_text">Last Step!</h3>    
-                <h4 className="card_quiz_text">Our powerful recommendation engine is calculating. If you want to know the result, subscribe us now.</h4>                  
+                <h4 className="card_quiz_text">Our powerful recommendation engine is calculating your preference. If you want to know the result, subscribe us now.</h4>                  
                 <form>
                   <div className="form-group">
 
