@@ -49,7 +49,6 @@ body {
 
 .footer_title{
 	font-family:'Lora', serif;
-	color:white;
 }
 .footer_icons{
     background-color: rgb(44,44,44);
@@ -65,9 +64,8 @@ body {
 }
 
 .row_footer{
-	margin-top:0;
-	margin-bottom:0;
-    background-color: rgb(44,44,44);
+	margin-bottom: 1vh;
+	border-top: 1px solid rgb(44,44,44);
 }
 
 /*index page height to 100vh from 125vh*/
