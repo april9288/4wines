@@ -26,8 +26,6 @@ const Quiz6 = ({route}) => {
                   <button type="submit" className="btn btn-info btn-lg quiz_button" onClick={()=>route("Quiz7")}>Submit</button>
                 </form>
               </div>
-              <div className="card-footer text-muted mb-2">
-              </div>
             </div>
 
 		</div>

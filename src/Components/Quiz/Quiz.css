@@ -1,10 +1,10 @@
 /*"welcome to 4wines"*/
-.page-header .content-center .card{
+.page-header .content-center .quiz_card{
 	top:-40vh!important;
 }
 
 
-.card {
+.quiz_card {
 	position: fixed;
 	display: block;
 	background-color: rgba(104,91,100,.5);
@@ -12,10 +12,11 @@
 }
 
 /*question text*/
-.card-text {
+.quiz_card_text {
 	color:white;
 	word-spacing: 0.2rem;
-	text-align: left;
+	text-align: center;
+	font-weight: bold;
 }
 
 .progress-container .progress {
@@ -24,7 +25,8 @@
 .progress {
 	font-size: 2rem;
 }
-.card, .text-center {
+
+.quiz_card, .text-center {
 	height: 80vh;
 }
 
@@ -32,108 +34,25 @@
 	white-space: normal;
 }
 
-.milk-bg {
-	background-image: url("./quizphotos/milk.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.dark-bg{
-	background-image: url("./quizphotos/dark.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.whitechoco-bg{
-	background-image: url("./quizphotos/whitechoco.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.honey-bg{
-	background-image: url("./quizphotos/honey.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.coffee-bg{
-	background-image: url("./quizphotos/coffee.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.lemon-bg{
-	background-image: url("./quizphotos/lemon.jpeg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.salty-bg{
-	background-image: url("./quizphotos/salty.jpeg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.leader-bg{
-	background-image: url("./quizphotos/leader.jpeg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.adven-bg{
-	background-image: url("./quizphotos/adven.jpeg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.bohemian-bg{
-	background-image: url("./quizphotos/bohemian.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.fun-bg{
-	background-image: url("./quizphotos/fun.jpeg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.satisfaction-bg{
-	background-image: url("./quizphotos/satisfaction.png");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.bottles-bg{
-	background-image: url("./quizphotos/4bottles.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.fee-bg{
-	background-image: url("./quizphotos/fee.jpeg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.database-bg{
-	background-image: url("./quizphotos/database.jpeg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.test_class{
+	display: flex;
+	justify-content: center;
 }
 
 .btn_custumized {
+	background-color: rgba(204,91,59,.1);
+	background-image: none;
+    color: #fff!important;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid white;
 	width: 12rem;
 	height: 20vh;
 	padding: 0;
-	margin-left:0.5rem;
-	margin-right:0.5rem;
-	font-weight: 700;
+	margin-left:1rem;
+	margin-right:1rem;
 	font-size: 1.2rem;
+	padding-left:3rem;
+	padding-right:3rem;
 }
 .btn_custumized:hover {
 	background-color: rgba(204,91,59,.3)!important;
@@ -213,7 +132,9 @@
 		margin-top: 0;
 	}
 	.btn_custumized {
-	height: 12vh;
+		height: 12vh;
+		padding-left:0.5rem;
+		padding-right:0.5rem;
 	}
 	.milk-bg,.dark-bg,.whitechoco-bg,.honey-bg,.coffee-bg,.lemon-bg,.salty-bg,.leader-bg,.adven-bg,.bohemian-bg,.fun-bg,.satisfaction-bg,.bottles-bg,.fee-bg, .database-bg{
 	background-color: rgba(204,91,59,.1);
@@ -222,13 +143,13 @@
     font-family: 'Open Sans', sans-serif;
     border: 2px solid white;
 	}
-	.card-title{
-		margin-top:0;
+	.test_class{
+		display: inline-block;
 	}
 } 
 
 @media only screen and (max-width: 650px) {
-	.card, .text-center {
+	.quiz_card, .text-center {
 		font-size: 0.7rem;
 		width:90%;
 		height: 80vh;
@@ -238,9 +159,14 @@
 		margin-top: 5vh;
 	}
 
+/*Nani??????*/
+/*
 	h3.card-text {
 		font-size: 1rem;
 	}
+	p.card-text > i.now-ui-icons{
+		display: none;
+	}*/
 
 	.btn_custumized {
 	width: 12rem;
@@ -254,9 +180,7 @@
 	.list-group-item{
 	padding: 0rem 1rem;
 	}	
-	p.card-text > i.now-ui-icons{
-		display: none;
-	}
+
 	.one_last_link{
 		display: flex;
 	    justify-content: center;

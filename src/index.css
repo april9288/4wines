@@ -4,10 +4,80 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.card_membership{
+	height:50vh!important;
+}
+.card_title_membership1{
+	background-color:aquamarine;
+	background: linear-gradient(180deg,aquamarine,rgba(85,255,70,0.6));
+}
+.card_title_membership2{
+	background-color: rgb(116,66,244);
+	background: linear-gradient(180deg,rgba(155,119,244,0.6),rgba(185,0,255,0.6));
+}
+/*navigation orange to blue*/
+.bg-primary {
+    background-color: rgb(116,66,244)!important;
+}
+
+.sidebar-collapse .navbar-collapse:before {
+    background: rgb(37,21,76);
+/*    background: linear-gradient(180deg,rgba(155,119,244,0.6),rgba(185,0,255,0.6));*/
+}
+
+
+
+.row_customizing1{
+	margin: 25vh 0;
+}
+
+.card_customizing1{
+	box-shadow: none;
+}
+
+.card_body_customizing1{
+	padding-top: 0;
+}
+
+.card_title_customizing1{
+	font-family:'Lora', serif;
+	font-size:2rem;
+	letter-spacing:0.2rem;
+	margin-top:5vh;
+}
+
+.footer_title{
+	font-family:'Lora', serif;
+	color:white;
+}
+.footer_icons{
+    background-color: rgb(44,44,44);
+    padding:0!important;
+}
+.footer_icons:hover{
+    background-color: rgb(44,44,44);
+    padding:0!important;
+}
+.footer_icons:focus{
+    background-color: rgb(44,44,44);
+    padding:0!important;
+}
+
+.row_footer{
+	margin-top:0;
+	margin-bottom:0;
+    background-color: rgb(44,44,44);
+}
+
+/*index page height to 100vh from 125vh*/
+.index-page .page-header {
+    height: 100vh;
+}
+
 /*bg filter*/
 .clear-filter[filter-color=orange] {
     background: rgba(0,168,255,0.5);
-    background: linear-gradient(270deg,rgba(0,168,255,0.5),rgba(185,0,255,0.5));
+    background: linear-gradient(270deg,rgba(0,168,255,0.6),rgba(185,0,255,0.6));
 }
 
 /*4 W I N E S*/
@@ -17,14 +87,40 @@ body {
 	letter-spacing:0.3rem;
 }
 
+/*How It Works*/
+.howitworks{
+	font-family:'Lora', serif;
+	font-size:3rem;
+	letter-spacing:0.3rem;
+}
+
+/*A great wine club for beginners*/
 .logo_sub{
 	font-family:'Open Sans', sans-serif;
 }
 
-
-/*Logo top*/
+/*Logo -> put it in the middle of the screen*/
 .page-header .content-center {
-	top:45vh;
+	top:50vh!important;
+}
+
+.body_button_mine{
+    background-color: rgb(185,0,255);
+    color: white;
+    border: 2px solid white;
+}
+/*rgb(116,66,244)*/
+.body_button_mine:hover{
+    background-color: rgb(116,66,244)!important;
+
+}
+.body_button_mine:foucs{
+    background-color: rgb(116,66,244)!important;
+
+}
+.body_button_mine:active{
+    background-color: rgb(116,66,244)!important;
+
 }
 
 /*"try our demo*/
@@ -55,7 +151,21 @@ body {
 	display: block;
 }
 
+.down_arrow_icon{
+	color:white!important;
+	top:50vh;
+	position:absolute!important;
+}
 
+.howitworks_container{
+	display: flex!important;
+	justify-content: center!important;
+
+}
+.howitworks_card{
+	margin: 7vh!important;
+	height: 40vh!important;
+}
 
 @media only screen and (max-width: 900px) {
 	.logo {
@@ -68,7 +178,9 @@ body {
 } 
 
 @media only screen and (max-width: 800px) {
-
+	.down_arrow_icon{
+		top:40vh;
+	}
 } 
 
 @media only screen and (max-width: 600px) {

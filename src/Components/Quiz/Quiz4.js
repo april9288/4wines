@@ -5,7 +5,7 @@ const Quiz4 = ({route}) => {
 	return (
 		<div>
 
-            <div className="card text-center">
+            <div className="card quiz_card text-center">
               <div className="card-header mt-2">
                       <div className="progress-container progress-info">
                       <div className="progress">
@@ -15,11 +15,13 @@ const Quiz4 = ({route}) => {
                     </div>
               </div>
               <div className="card-body">
-                <h3 className="card-text">Friends would describe you as...</h3>
-                <button className="btn btn-info btn-lg leader-bg btn_custumized" onClick={()=>route("Quiz5")} style={{color: "white"}}>Leader</button>
-                <button className="btn btn-info btn-lg adven-bg btn_custumized" onClick={()=>route("Quiz5")} style={{color: "black"}}>Adventurous</button>
-                <button className="btn btn-info btn-lg bohemian-bg btn_custumized" onClick={()=>route("Quiz5")} style={{color: "white"}}>Bohemian</button>
-                <button className="btn btn-info btn-lg fun-bg btn_custumized" onClick={()=>route("Quiz5")} style={{color: "black"}}>Fun</button>
+                <h3 className="card-text quiz_card_text">Friends would describe you as...</h3>
+                <div className="test_class">
+                <button className="btn btn-info btn-lg leader-bg btn_custumized" onClick={()=>route("Quiz5")}>Leader</button>
+                <button className="btn btn-info btn-lg adven-bg btn_custumized" onClick={()=>route("Quiz5")} style={{fontSize:"0.9rem"}}>Adventurous</button>
+                <button className="btn btn-info btn-lg bohemian-bg btn_custumized" onClick={()=>route("Quiz5")}>Bohemian</button>
+                <button className="btn btn-info btn-lg fun-bg btn_custumized" onClick={()=>route("Quiz5")}>Fun</button>
+                </div>
               </div>
               <div className="card-footer text-muted mb-2">
               </div>

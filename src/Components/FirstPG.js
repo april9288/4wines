@@ -25,24 +25,24 @@ constructor() {
 render() {
 
     let showThis;
-    if (this.state.route === "main") {
-      showThis = (<Main route={this.onClick} />)
-    } else if (this.state.route === "Quiz1") {
-      showThis = (<Quiz1 route={this.onClick}/>)
-    } else if (this.state.route === "Quiz2") {
-      showThis = (<Quiz2 route={this.onClick}/>)
-    } else if (this.state.route === "Quiz3") {
-      showThis = (<Quiz3 route={this.onClick}/>)
-    } else if (this.state.route === "Quiz4") {
-      showThis = (<Quiz4 route={this.onClick}/>)
-    } else if (this.state.route === "Quiz5") {
-      showThis = (<Quiz5 route={this.onClick}/>)
-    } else if (this.state.route === "Quiz6") {
-      showThis = (<Quiz6 route={this.onClick}/>)
-    } else if (this.state.route === "Quiz7") {
-      showThis = (<Quiz7 route={this.onClick}/>)
-    }
-
+    // if (this.state.route === "main") {
+    //   showThis = (<Main route={this.onClick} />)
+    // } else if (this.state.route === "Quiz1") {
+    //   showThis = (<Quiz1 route={this.onClick}/>)
+    // } else if (this.state.route === "Quiz2") {
+    //   showThis = (<Quiz2 route={this.onClick}/>)
+    // } else if (this.state.route === "Quiz3") {
+    //   showThis = (<Quiz3 route={this.onClick}/>)
+    // } else if (this.state.route === "Quiz4") {
+    //   showThis = (<Quiz4 route={this.onClick}/>)
+    // } else if (this.state.route === "Quiz5") {
+    //   showThis = (<Quiz5 route={this.onClick}/>)
+    // } else if (this.state.route === "Quiz6") {
+    //   showThis = (<Quiz6 route={this.onClick}/>)
+    // } else if (this.state.route === "Quiz7") {
+    //   showThis = (<Quiz7 route={this.onClick}/>)
+    // }
+    showThis = (<Main route={this.onClick} />)
 
 
 	return (

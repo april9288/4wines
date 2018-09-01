@@ -5,7 +5,7 @@ const Quiz3 = ({route}) => {
 	return (
 		<div>
 
-            <div className="card text-center">
+            <div className="card quiz_card text-center">
               <div className="card-header mt-2">
                       <div className="progress-container progress-info">
                       <div className="progress">
@@ -15,10 +15,12 @@ const Quiz3 = ({route}) => {
                     </div>
               </div>
               <div className="card-body">
-                <h3 className="card-text">What type of chocolate do you like?</h3>
-                <button className="btn btn-info btn-lg milk-bg btn_custumized" onClick={()=>route("Quiz4")} style={{color: "white"}}>Milk chocolate</button>
-                <button className="btn btn-info btn-lg dark-bg btn_custumized" onClick={()=>route("Quiz4")} style={{color: "white"}}>Dark chocolate</button>
-                <button className="btn btn-info btn-lg whitechoco-bg btn_custumized" onClick={()=>route("Quiz4")} style={{color: "black"}}>White chocolate</button>
+                <h3 className="card-text quiz_card_text">What type of chocolate do you like?</h3>
+                <div className="test_class">
+                <button className="btn btn-info btn-lg milk-bg btn_custumized" onClick={()=>route("Quiz4")}>Milk chocolate</button>
+                <button className="btn btn-info btn-lg dark-bg btn_custumized" onClick={()=>route("Quiz4")}>Dark chocolate</button>
+                <button className="btn btn-info btn-lg whitechoco-bg btn_custumized" onClick={()=>route("Quiz4")}>White chocolate</button>
+                </div>
               </div>
               <div className="card-footer text-muted mb-2">
                 
