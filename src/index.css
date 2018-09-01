@@ -4,6 +4,30 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.parallax_mine {
+    /* The image used */
+    background-image: url('photos/4.jpg');
+    display: grid;
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax_mine_filter{
+    background: rgba(0,168,255,0.5);
+    background: linear-gradient(270deg,rgba(0,168,255,0.6),rgba(185,0,255,0.6));
+}
+.card_subscribe{
+	background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
 .card_membership{
 	height:50vh!important;
 }
@@ -30,6 +54,10 @@ body {
 
 .row_customizing1{
 	margin: 25vh 0;
+}
+
+.row_customizing2{
+	margin: 14vh 0;
 }
 
 .card_customizing1{
