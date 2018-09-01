@@ -3,7 +3,9 @@ body {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
-
+.section_mine{
+	padding-bottom: 0;
+}
 .parallax_mine {
     /* The image used */
     display: grid;
@@ -91,8 +93,9 @@ body {
 }
 
 .row_footer{
-	margin-bottom: 1vh;
-	border-top: 1px solid rgb(44,44,44);
+	margin-bottom: 0!important;
+	margin-top:0!important;
+	padding-top:5vh!important; 
 }
 
 /*index page height to 100vh from 125vh*/
