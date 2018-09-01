@@ -7,14 +7,15 @@ body {
 .card_membership{
 	height:50vh!important;
 }
-.card_title_membership1{
-	background-color:aquamarine;
-	background: linear-gradient(180deg,aquamarine,rgba(85,255,70,0.6));
-}
 .card_title_membership2{
 	background-color: rgb(116,66,244);
 	background: linear-gradient(180deg,rgba(155,119,244,0.6),rgba(185,0,255,0.6));
+	font-family:'Lora', serif;
 }
+.card_title_subscribe{
+	font-family:'Lora', serif;
+}
+
 /*navigation orange to blue*/
 .bg-primary {
     background-color: rgb(116,66,244)!important;
