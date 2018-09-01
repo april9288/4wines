@@ -181,6 +181,9 @@ body {
 	.down_arrow_icon{
 		top:40vh;
 	}
+	.card_membership{
+	height:50vh!important;
+	}	
 } 
 
 @media only screen and (max-width: 600px) {
