@@ -97,7 +97,7 @@
                     <h3 class="logo_sub animated fadeInUpBig">A Great Wine Club for Beginners</h3>
                     <h5 class="logo_sub animated fadeInUpBig">Try our monthly wine box selected by powerful recommendation engine</h5>
 
-                   <button class="btn btn-info btn-lg try_demo">Get Started</button>
+                   <a href="#top" class="btn btn-info btn-lg try_demo">Get Started</a>
                    </div>
 
 
@@ -109,7 +109,7 @@
 
 
 
-        <div class="main">
+        <div class="main" id="top">
 
             <div class="section section-basic section_mine">
 
@@ -121,11 +121,13 @@
 
                     <div class="col-md-12 col-lg-6">
                     <!-- first card -->
-                    <div class="card text-left card_customizing1">
+                    <div class="card text-left card_customizing1" >
                       <div class="card-body card_body_customizing1">
                         <h3 class="card-title card_title_customizing1">We help you find your next favorite wine</h3>
                         <p class="card-text">Did you just start getting into wine? You are in the right place. Our passinate data scientists have built a powerful recommendation engine. Simply answer a few questions. Hit the button below.</p>
-                        <button class="btn btn-info btn-lg btn-round body_button_mine">Try our engine</button>
+                        <button data-toggle="modal" data-target=".bd-example-modal-sm" type="button" class="btn btn-info btn-lg btn-round body_button_mine"
+                        style="background-color: rgb(255,85,85);"
+                        >Try our engine</button>
                       </div>
                     </div>
                     </div>
@@ -228,7 +230,19 @@
 
 
 
-    <div id="root"></div>
+    
+
+<!-- modal -->
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div id="root"></div>
+    </div>
+  </div>
+</div>
+<!-- modal -->
+
+
 </body>
 
 <!--   Core JS Files   -->

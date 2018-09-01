@@ -1,3 +1,7 @@
+.App {
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -136,19 +140,22 @@ body {
 .body_button_mine{
     background-color: rgb(185,0,255);
     color: white;
-    border: 2px solid white;
+    border: 2px solid transparent;
 }
 /*rgb(116,66,244)*/
 .body_button_mine:hover{
     background-color: rgb(116,66,244)!important;
+    border: 2px solid transparent!important;
 
 }
-.body_button_mine:foucs{
+.body_button_mine:focus{
     background-color: rgb(116,66,244)!important;
+    border: 2px solid transparent!important;
 
 }
 .body_button_mine:active{
     background-color: rgb(116,66,244)!important;
+    border: 2px solid transparent!important;
 
 }
 
