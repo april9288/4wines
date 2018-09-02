@@ -4,6 +4,41 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/*footer whole division active now!*/
+.footer_test_mode{
+	background-color: rgb(44,44,44);
+	color:white;
+	font-family:'Lora', serif;
+	padding: 3vh 0 0 0;
+	margin-bottom: -10vh;
+}
+
+/*footer Thank you for choosing us!!!*/
+.row_title_footer{
+	font-size:2rem;
+	letter-spacing:0.2rem;
+	margin:7vh 0;
+    background: rgb(126, 35, 255);
+    background-image: linear-gradient(90deg, #ff5555 56%, #6900ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*background-color: #ff5555;
+background-image: linear-gradient(90deg, #ff5555 56%, #6900ff 100%);
+*/
+
+.footer_icons_div{
+	margin-bottom: 2vh;
+}
+
+.footer_icons{
+	font-size: 2rem;
+	color:white;
+	margin: 0 3vh;
+}
+
+
 .App {
   text-align: center;
 }
@@ -101,7 +136,7 @@ body {
 	letter-spacing:0.2rem;
 	margin-top:5vh;
 	margin-bottom: 10vh;
-    background: rgb(0,168,255);
+    background: rgb(105,0,255);
     background: linear-gradient(to right,rgb(255,85,85),rgb(105,0,255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -114,16 +149,6 @@ body {
 	margin-top:5vh;
 }
 
-.footer_title{
-	font-family:'Lora', serif;
-}
-
-
-.row_footer{
-	margin-bottom: 0!important;
-	margin-top:0!important;
-	padding-top:5vh!important; 
-}
 
 /*index page height to 100vh from 125vh*/
 .index-page .page-header {
