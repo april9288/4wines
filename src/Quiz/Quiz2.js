@@ -19,10 +19,10 @@ const Quiz2 = ({route}) => {
               <div className="card-body">
                 <h3 className="card-text card_quiz_text">What type of flavor would you prefer?</h3>
                 <div className="test_class">
-                <button className="btn btn-info btn-lg body_button_mine" onClick={()=>route("Quiz3")}>Sweet honey</button>
-                <button className="btn btn-info btn-lg body_button_mine" onClick={()=>route("Quiz3")}>Bitter coffee</button>
-                <button className="btn btn-info btn-lg body_button_mine" onClick={()=>route("Quiz3")}>Sour lemon</button>
-                <button className="btn btn-info btn-lg body_button_mine" onClick={()=>route("Quiz3")}>Salty pretzel</button>
+                <button className="btn btn-info btn-lg body_button_mine quiz_buttons" onClick={()=>route("Quiz3")}>Sweet honey</button>
+                <button className="btn btn-info btn-lg body_button_mine quiz_buttons" onClick={()=>route("Quiz3")}>Bitter coffee</button>
+                <button className="btn btn-info btn-lg body_button_mine quiz_buttons" onClick={()=>route("Quiz3")}>Sour lemon</button>
+                <button className="btn btn-info btn-lg body_button_mine quiz_buttons" onClick={()=>route("Quiz3")}>Salty pretzel</button>
                 </div>
               </div>
             </div>

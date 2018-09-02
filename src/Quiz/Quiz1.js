@@ -17,8 +17,8 @@ const Quiz1 = ({route}) => {
 
               <div className="card-body">
                 <h3 className="card-text card_quiz_text">May I ask a few simple questions before we move on? </h3>
-                <button className="btn btn-info btn-lg body_button_mine" onClick={()=>route("Quiz2")}>Yes</button>
-                <button data-dismiss="modal" type="button" className="btn btn-info btn-lg body_button_mine">Later</button>
+                <button className="btn btn-info btn-lg body_button_mine quiz_buttons" onClick={()=>route("Quiz2")}>Yes</button>
+                <button data-dismiss="modal" type="button" className="btn btn-info btn-lg body_button_mine quiz_buttons">Later</button>
               </div>
             </div>
 

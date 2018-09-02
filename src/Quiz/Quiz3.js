@@ -17,9 +17,9 @@ const Quiz3 = ({route}) => {
               <div className="card-body">
                 <h3 className="card-text card_quiz_text">What type of chocolate do you like?</h3>
                 <div className="test_class">
-                <button className="btn btn-info btn-lg body_button_mine" onClick={()=>route("Quiz4")}>Milk chocolate</button>
-                <button className="btn btn-info btn-lg body_button_mine" onClick={()=>route("Quiz4")}>Dark chocolate</button>
-                <button className="btn btn-info btn-lg body_button_mine" onClick={()=>route("Quiz4")}>White chocolate</button>
+                <button className="btn btn-info btn-lg body_button_mine quiz_buttons" onClick={()=>route("Quiz4")}>Milk chocolate</button>
+                <button className="btn btn-info btn-lg body_button_mine quiz_buttons" onClick={()=>route("Quiz4")}>Dark chocolate</button>
+                <button className="btn btn-info btn-lg body_button_mine quiz_buttons" onClick={()=>route("Quiz4")}>White chocolate</button>
                 </div>
               </div>
               <div className="card-footer text-muted mb-2">

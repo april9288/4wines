@@ -23,7 +23,7 @@ const Quiz5 = ({route}) => {
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email here!" />
                   
                   </div>
-                  <button data-dismiss="modal" type="button" className="btn btn-info btn-lg body_button_mine" onClick={()=>route("Quiz1")}>Submit</button>
+                  <button data-dismiss="modal" type="button" className="btn btn-info btn-lg body_button_mine quiz_buttons" onClick={()=>route("Quiz1")}>Submit</button>
                 </form>
 
               </div>

@@ -183,24 +183,30 @@ background-image: linear-gradient(90deg, #ff5555 56%, #6900ff 100%);
 .body_button_mine{
     background-color: rgb(185,0,255);
     color: white;
-    border: 2px solid transparent;
+    border: 2px solid transparent!important;
 }
 /*rgb(116,66,244)*/
 .body_button_mine:hover{
-    background-color: rgb(116,66,244)!important;
+    background-color: rgb(215, 109, 255)!important;
     border: 2px solid transparent!important;
 
 }
 .body_button_mine:focus{
-    background-color: rgb(116,66,244)!important;
+    background-color: rgb(160, 10, 216)!important;
     border: 2px solid transparent!important;
 
 }
-.body_button_mine:active{
-    background-color: rgb(116,66,244)!important;
-    border: 2px solid transparent!important;
 
+.body_button_mine_engine{
+	background-color: rgb(255,85,85);
 }
+.body_button_mine_engine:hover{
+	background-color: rgb(255, 132, 132)!important;
+}
+.body_button_mine_engine:focus{
+	background-color: rgb(211, 71, 71)!important;
+}
+
 
 /*"try our demo*/
 .try_demo{

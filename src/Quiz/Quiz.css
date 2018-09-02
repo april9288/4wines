@@ -7,9 +7,12 @@
 	font-family:'Lora', serif;
 }
 
-.card_quiz .body_button_mine{
-	width:100%;
+.quiz_buttons{
+	width: 70%!important;
+	padding: 15px 0!important;
 }
+
+
 
 .progress-container .progress {
 	height: 10px;
