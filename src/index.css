@@ -56,6 +56,12 @@ body {
 	font-family:'Lora', serif;
 }
 
+.list_price{
+	font-family:'Lora', serif;
+	font-size:2rem;
+}
+
+
 /*navigation orange to blue*/
 .bg-primary {
     background-color: rgb(116,66,244)!important;
@@ -80,11 +86,16 @@ body {
 	box-shadow: none;
 }
 
+.card_customizing_membership{
+	border-radius: 3.5rem;
+	width:80%;
+}
+
 .card_body_customizing1{
 	padding-top: 0;
 }
 
-.card_title_membership{
+.row_title_membership{
 	font-family:'Lora', serif;
 	font-size:2rem;
 	letter-spacing:0.2rem;
@@ -98,7 +109,7 @@ body {
 
 .card_title_customizing1{
 	font-family:'Lora', serif;
-	font-size:2rem;
+	font-size:1.5rem;
 	letter-spacing:0.2rem;
 	margin-top:5vh;
 }
