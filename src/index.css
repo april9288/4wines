@@ -17,20 +17,6 @@ body {
 	margin-bottom: -10vh;
 }
 
-/*footer Thank you for choosing us!!!*/
-.row_title_footer{
-	font-size:2rem;
-	letter-spacing:0.2rem;
-	margin:7vh 0;
-    background: rgb(126, 35, 255);
-    background-image: linear-gradient(90deg, #ff5555 56%, #6900ff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/*background-color: #ff5555;
-background-image: linear-gradient(90deg, #ff5555 56%, #6900ff 100%);
-*/
 
 .footer_icons_div{
 	margin-bottom: 2vh;
@@ -108,10 +94,7 @@ background-image: linear-gradient(90deg, #ff5555 56%, #6900ff 100%);
 
 .sidebar-collapse .navbar-collapse:before {
     background: rgb(37,21,76);
-/*    background: linear-gradient(180deg,rgba(155,119,244,0.6),rgba(185,0,255,0.6));*/
 }
-
-
 
 .row_customizing1{
 	margin: 25vh;
@@ -160,7 +143,7 @@ background-image: linear-gradient(90deg, #ff5555 56%, #6900ff 100%);
 }
 
 /*bg filter*/
-.clear-filter[filter-color=orange] {
+.clear-filter {
     background: rgba(0,168,255,0.5);
     background: linear-gradient(270deg,rgba(0,168,255,0.6),rgba(185,0,255,0.6));
 }
