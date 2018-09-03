@@ -1,6 +1,14 @@
 # udemy-nuk
 
 
+<!-- Tested with 
+Windows Chrome
+Windows Firefox
+Android Chrome (Galaxy S8+)
+Android Firefox  -->
+
+
+
 Coding Challenge #8
 
 
