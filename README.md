@@ -8,7 +8,7 @@ Please check heroku deployed address below.
 https://fourwines.herokuapp.com/
 
 
-Tested with 
+> Tested with 
 Windows Chrome,
 Windows Firefox,
 Android Chrome,
