@@ -1,18 +1,16 @@
-# udemy-nuk
+# udemy now-ui-kit
 
 Udemy Zere to Mastery Course
 Coding Challenge #8
 
-
-Please check heroku deployed address below.
-https://fourwines.herokuapp.com/
+https://april9288.github.io/4wines/
 
 
 > Tested with 
 Windows Chrome,
 Windows Firefox,
 Android Chrome,
-Android Firefox, 
+Android Firefox
 
 Thank you.
 
