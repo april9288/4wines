@@ -9,7 +9,7 @@ This website introduces a wine club company which has their own recommendation e
 
 ## Getting Started
 
-If you want to download and run this website on your computer, you need to install Node.js first because some of part were built with React.js
+If you want to download and run this website on your computer, you need to install Node.js first because some of part were built with React.js.
 
 ### Prerequisites
 
@@ -36,6 +36,7 @@ So it will automatically run in your local server.
 
 * [React.js](https://reactjs.org/) - The official React.js website
 * [gh-pages](https://www.npmjs.com/package/gh-pages) - To deploy on Github
+* [creative-tim](https://www.creative-tim.com/product/now-ui-kit) - Web Design Framework
 
 ## Meta
 
