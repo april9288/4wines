@@ -3,7 +3,9 @@
 
 This website introduces a wine club company which has their own recommendation engine. Most of the parts were built with HTML and CSS. 
 
-![](sample.gif)
+* [4wines](https://april9288.github.io/4wines/) - It's deployed here!
+
+![](4wines.gif)
 
 ## Getting Started
 
