@@ -3,7 +3,7 @@
 
 This website introduces a wine club company which has their own recommendation engine. Most of the parts were built with HTML and CSS. 
 
-![](header.png)
+![](sample.gif)
 
 ## Getting Started
 
