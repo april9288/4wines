@@ -5,7 +5,9 @@ This website introduces a wine club company which has their own recommendation e
 
 * [4wines](https://april9288.github.io/4wines/) - It's deployed here!
 
-![](4wines.gif)
+<p align="center">
+  ![](4wines.gif)
+</p>
 
 ## Getting Started
 
