@@ -1,15 +1,13 @@
 # 4wines
 > startup landing page
 
-This website introduces a wine club company which has their own recommendation engine. Most of the parts were built with HTML and CSS. 
+It is a startup landing page. This webpage introduces a wine club company which has their own recommendation engine. Most of the parts were built with HTML and CSS. 
 
 * [4wines](https://april9288.github.io/4wines/) - It's deployed here!
 
 ![](sample.gif)
 
 ## Getting Started
-
-If you want to download and run this website on your computer, you need to install Node.js first because some of part were built with React.js.
 
 ### Prerequisites
 
@@ -25,7 +23,9 @@ On your terminal:
 
 ```
 cd /c/<folder_path>
-npm i
+git clone https://github.com/april9288/4wines.git
+cd 4wines
+npm install
 npm start
 
 ```
@@ -35,17 +35,11 @@ So it will automatically run in your local server.
 ## Built With
 
 * [React.js](https://reactjs.org/) - The official React.js website
-* [gh-pages](https://www.npmjs.com/package/gh-pages) - To deploy on Github
 * [creative-tim](https://www.creative-tim.com/product/now-ui-kit) - Web Design Framework
 
 ## Meta
 
-James Jongho Kim – [@Mygithub](https://github.com/april9288) – april9288@gmail.com
-
-## Contributing
-
-1. Fork it (<https://github.com/april9288/4wines.git>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+James Jongho Kim 
+- [Github](https://github.com/april9288) - This is my Github page
+- [Linkedin](https://www.linkedin.com/in/jongho-kim-b05618170/) - This is my Linkedin page
+- april9288@gmail.com
