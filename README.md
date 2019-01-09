@@ -1,7 +1,7 @@
 # 4wines
 > startup landing page
 
-It is a startup landing page. This webpage introduces a wine club company which has their own recommendation engine. Most of the parts were built with HTML and CSS. 
+It is a startup landing page. This web page introduces a wine club company which has their own recommendation engine. Most of the parts were built with HTML and CSS. 
 
 * [4wines](https://april9288.github.io/4wines/) - It's deployed here!
 
