@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.8ac75d8d.css",
-  "main.css.map": "static/css/main.8ac75d8d.css.map",
-  "main.js": "static/js/main.a4f6df85.js",
-  "main.js.map": "static/js/main.a4f6df85.js.map"
+  "main.css": "/4wines/static/css/main.4f5a346d.chunk.css",
+  "main.js": "/4wines/static/js/main.a16c5f92.chunk.js",
+  "main.js.map": "/4wines/static/js/main.a16c5f92.chunk.js.map",
+  "runtime~main.js": "/4wines/static/js/runtime~main.670dda92.js",
+  "runtime~main.js.map": "/4wines/static/js/runtime~main.670dda92.js.map",
+  "static/js/2.884c28c3.chunk.js": "/4wines/static/js/2.884c28c3.chunk.js",
+  "static/js/2.884c28c3.chunk.js.map": "/4wines/static/js/2.884c28c3.chunk.js.map",
+  "index.html": "/4wines/index.html",
+  "precache-manifest.fbf9c043d51aeb53bc13b204e58226bb.js": "/4wines/precache-manifest.fbf9c043d51aeb53bc13b204e58226bb.js",
+  "service-worker.js": "/4wines/service-worker.js",
+  "static/css/main.4f5a346d.chunk.css.map": "/4wines/static/css/main.4f5a346d.chunk.css.map"
 }
